@@ -195,8 +195,8 @@ main{width:min(var(--max),calc(100% - 36px));margin:auto}
 .ig:hover{box-shadow:0 0 28px rgba(255,59,178,.7)}
 .social-btn svg{width:22px;height:22px}
 .fb svg{fill:var(--blue)}.ig svg{fill:var(--pink)}
-.life-card{padding:24px;display:flex;flex-direction:column;align-items:center;gap:16px;text-align:center}
-.life-tag{font-family:Poppins,sans-serif;font-size:1rem;font-weight:700;color:var(--yellow);text-shadow:0 0 8px var(--yellow),0 0 18px rgba(255,210,59,.45)}
+.life-section{padding-bottom:0}
+.life-wrap{display:flex;justify-content:center}
 .life-gif{width:200px;height:200px;max-width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:16px;border:2px solid var(--line);display:block}
 footer{text-align:center;padding:50px 0 60px;color:#666;font-size:.72rem;letter-spacing:1px}
 .reveal{opacity:0;transform:translateY(25px);transition:opacity .7s ease,transform .7s ease}
@@ -315,6 +315,15 @@ footer{text-align:center;padding:50px 0 60px;color:#666;font-size:.72rem;letter-
 </div>
 </section>
 
+<section class="section life-section" id="life">
+  <div class="section-head reveal">
+    <h2 class="section-title yellow-text">my life rn:)</h2>
+  </div>
+  <div class="life-wrap reveal">
+    <img class="life-gif" src="https://raw.githubusercontent.com/bayejidgamingff1/Image/main/200w.webp" alt="my life rn" loading="lazy">
+  </div>
+</section>
+
 <section class="section" id="social">
 <div class="section-head reveal">
   <div class="section-label pink-text">04 — Social</div>
@@ -323,11 +332,6 @@ footer{text-align:center;padding:50px 0 60px;color:#666;font-size:.72rem;letter-
 </div>
 
 <div class="social-area">
-  <article class="card life-card reveal">
-    <div class="life-tag">my life rn:)</div>
-    <img class="life-gif" src="https://raw.githubusercontent.com/bayejidgamingff1/Image/main/200w.webp" alt="my life rn" loading="lazy">
-  </article>
-
   <article class="card social-card reveal">
     <div>
       <div class="social-title">Social Profiles</div>
@@ -481,4 +485,4 @@ footer{text-align:center;padding:50px 0 60px;color:#666;font-size:.72rem;letter-
 })();
 </script>
 </body>
-</html>
+      </html>
